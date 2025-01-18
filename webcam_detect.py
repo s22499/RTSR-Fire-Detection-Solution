@@ -42,7 +42,7 @@ def main():
     args = parse_arguments()
     frame_width, frame_height = args.webcam_resolution
     print(frame_width, frame_height)
-    model = YOLO(r"runs\detect\train43\weights\best.pt")
+    model = YOLO(r"runs\detect\train40\weights\best.pt")
 
     cap = cv2.VideoCapture(1)
     actual_frame_width = cap.set(cv2.CAP_PROP_FRAME_WIDTH,frame_width)
