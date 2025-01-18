@@ -3,7 +3,7 @@ import os
 def main():
    
     #%%
-    model = YOLO(r"runs\detect\train43\weights\best.pt")
+    model = YOLO(r"runs\detect\train40\weights\best.pt")
     
     
     test_path =r"C:\dataset8\test\images\\"
