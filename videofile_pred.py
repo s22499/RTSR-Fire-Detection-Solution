@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 def main():
     
-    model = YOLO(r"runs\detect\train43\weights\best.pt")
+    model = YOLO(r"runs\detect\train40\weights\best.pt")
     vidtest_dir = "vidtest/fire07.mp4"
 
     dimensions= (640,640)
