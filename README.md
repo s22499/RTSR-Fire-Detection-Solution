@@ -21,3 +21,28 @@ for further research and the implementation of the solution in a production envi
 # Roboflow dataset
 #### https://app.roboflow.com/server-room-fire-and-smoke-detection/serveroom-fire-and-smoke-dtc./browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
 # Prerequisites to use scripts
+
+* Ultralytics: https://docs.ultralytics.com/quickstart/
+* PyTorch: https://pytorch.org
+* GPU with NVIDIA-CUDA
+* Python
+* Open-CV: https://opencv.org
+
+Versions of libraries used during project making:
+* Ultralytics: 8.2.19
+* PyTorch: 2.3.0
+* CUDA-API: 12.1.0
+
+## Quickinstall
+
+### Check CUDA Version
+Use: nvidia-smi in PowerShell
+
+![image](https://github.com/user-attachments/assets/f2754d73-debf-476d-9171-d0dbad08e537)
+
+
+### Install all packages together using conda
+conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cuda=your_cuda_version ultralytics
+
+### Install the ultralytics package from PyPI
+pip install ultralytics
